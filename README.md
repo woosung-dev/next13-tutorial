@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js 13를 이용한 간단한 게시판(CRUD) 예제 프로젝트
 
-## Getting Started
+이 프로젝트는 Next.js 13를 이용하여 간단한 게시판(CRUD)을 구현하는 예제입니다.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 시작하기
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+이 레포지토리를 클론합니다.
+npm install 명령어를 실행하여 프로젝트의 의존성 모듈을 설치합니다.
+npm run dev 명령어를 실행하여 개발 서버를 시작합니다.
+브라우저에서 http://localhost:3000 주소로 이동하여 앱을 확인합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 구현 내용
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+이 프로젝트는 다음과 같은 내용을 포함합니다:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+게시글을 등록, 조회, 수정, 삭제할 수 있는 CRUD 기능.
+Next.js의 내장 API 라우팅을 이용하여 RESTful API를 구현.
+서버 측 렌더링을 통해 초기 페이지 로딩 성능을 향상.
+MongoDB와 Mongoose를 이용하여 데이터를 관리.
 
-To learn more about Next.js, take a look at the following resources:
+## 참여하기
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+이 프로젝트에 참여하시려면 언제든지 Issue를 등록하거나 Pull Request를 보내주세요!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 라이선스
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+이 프로젝트는 MIT License에 따라 배포됩니다. 자세한 내용은 LICENSE 파일을 확인해주세요.
