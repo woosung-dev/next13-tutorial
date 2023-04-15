@@ -1,12 +1,3 @@
-// @flow
-import * as React from 'react';
-type Props = {
-  
-};
-export default function NotFound(props: Props) {
-  return (
-    <div>
-      페이지를 표시할 수 없습니다.
-    </div>
-  );
-};
+export default function NotFoundPage() {
+  return <h1>페이지를 찾을 수 없음 😝</h1>;
+}

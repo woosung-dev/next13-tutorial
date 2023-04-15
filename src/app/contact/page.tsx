@@ -1,12 +1,3 @@
-// @flow 
-import * as React from 'react';
-type Props = {
-    
-};
-export default function Content(props: Props) {
-    return (
-        <div>
-            test
-        </div>
-    );
-};
+export default function ContactPage() {
+  return <h1>Contact Us!</h1>;
+}

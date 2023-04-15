@@ -1,12 +1,3 @@
-// @flow 
-import * as React from 'react';
-type Props = {
-    
-};
-export default function About(props: Props) {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+export default function AboutPage() {
+  return <h1>About Us!</h1>;
+}
